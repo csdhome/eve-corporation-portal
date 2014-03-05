@@ -262,7 +262,9 @@
     <Content Include="Scripts\knockout-2.2.0.debug.js" />
     <Content Include="Scripts\knockout-2.2.0.js" />
     <Content Include="Scripts\modernizr-2.6.2.js" />
-    <Content Include="Web.config" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </Content>
@@ -307,6 +309,16 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Eve-Corporation-Portal.Bootstrapper\Eve-Corporation-Portal.Bootstrapper.csproj">
+      <Project>{170ec808-4a5d-4f8f-8966-0a7e8bc98c9a}</Project>
+      <Name>Eve-Corporation-Portal.Bootstrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Eve-Corporation-Portal.Core\Eve-Corporation-Portal.Core.csproj">
+      <Project>{56d6e260-3a43-4a01-b794-23a4464cc9c8}</Project>
+      <Name>Eve-Corporation-Portal.Core</Name>
+    </ProjectReference>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>

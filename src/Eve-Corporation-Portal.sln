@@ -5,6 +5,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eve-Corporation-Portal", "E
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eve-Corporation-Portal.Tests", "Eve-Corporation-Portal.Tests\Eve-Corporation-Portal.Tests.csproj", "{8401CA78-FD5E-436C-B469-EB6E48290BFD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eve-Corporation-Portal.Core", "Eve-Corporation-Portal.Core\Eve-Corporation-Portal.Core.csproj", "{56D6E260-3A43-4A01-B794-23A4464CC9C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eve-Corporation-Portal.Repository.EveAPI", "Eve-Corporation-Portal.Repository.EveAPI\Eve-Corporation-Portal.Repository.EveAPI.csproj", "{E5B4F63E-D3F5-432B-AD97-223A81B9F421}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Eve-Corporation-Portal.Bootstrapper", "Eve-Corporation-Portal.Bootstrapper\Eve-Corporation-Portal.Bootstrapper.csproj", "{170EC808-4A5D-4F8F-8966-0A7E8BC98C9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +25,18 @@ Global
 		{8401CA78-FD5E-436C-B469-EB6E48290BFD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8401CA78-FD5E-436C-B469-EB6E48290BFD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8401CA78-FD5E-436C-B469-EB6E48290BFD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56D6E260-3A43-4A01-B794-23A4464CC9C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56D6E260-3A43-4A01-B794-23A4464CC9C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56D6E260-3A43-4A01-B794-23A4464CC9C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56D6E260-3A43-4A01-B794-23A4464CC9C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E5B4F63E-D3F5-432B-AD97-223A81B9F421}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E5B4F63E-D3F5-432B-AD97-223A81B9F421}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E5B4F63E-D3F5-432B-AD97-223A81B9F421}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E5B4F63E-D3F5-432B-AD97-223A81B9F421}.Release|Any CPU.Build.0 = Release|Any CPU
+		{170EC808-4A5D-4F8F-8966-0A7E8BC98C9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170EC808-4A5D-4F8F-8966-0A7E8BC98C9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170EC808-4A5D-4F8F-8966-0A7E8BC98C9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{170EC808-4A5D-4F8F-8966-0A7E8BC98C9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

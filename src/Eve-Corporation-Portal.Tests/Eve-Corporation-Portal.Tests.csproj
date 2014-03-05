@@ -115,6 +115,7 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Controllers\HomeControllerTest.cs" />
+    <Compile Include="Repositories\Eve\GeneralRepoTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="App.config" />
@@ -123,6 +124,18 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Eve-Corporation-Portal.Bootstrapper\Eve-Corporation-Portal.Bootstrapper.csproj">
+      <Project>{170ec808-4a5d-4f8f-8966-0a7e8bc98c9a}</Project>
+      <Name>Eve-Corporation-Portal.Bootstrapper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Eve-Corporation-Portal.Core\Eve-Corporation-Portal.Core.csproj">
+      <Project>{56d6e260-3a43-4a01-b794-23a4464cc9c8}</Project>
+      <Name>Eve-Corporation-Portal.Core</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Eve-Corporation-Portal.Repository.EveAPI\Eve-Corporation-Portal.Repository.EveAPI.csproj">
+      <Project>{e5b4f63e-d3f5-432b-ad97-223a81b9f421}</Project>
+      <Name>Eve-Corporation-Portal.Repository.EveAPI</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Eve-Corporation-Portal\Eve-Corporation-Portal.csproj">
       <Project>{036566FB-8F2E-4698-ABC2-0DCA846D80DF}</Project>
       <Name>Eve-Corporation-Portal</Name>
