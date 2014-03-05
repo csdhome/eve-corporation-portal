@@ -18,6 +18,8 @@ namespace Eve_Corporation_Portal
         {
             AreaRegistration.RegisterAllAreas();
 
+            Bootstrapper.Bootstrap.Setup(Bootstrapper.Bootstrap.GetBootstrapSettings());
+
             WebApiConfig.Register(GlobalConfiguration.Configuration);
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);
             RouteConfig.RegisterRoutes(RouteTable.Routes);
